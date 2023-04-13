@@ -163,8 +163,8 @@
   </header>
 
   <!-- Main Body Contents -->
-  <main class="mt-9">
-    <div class="flex flex-row max-w-screen-xl px-20 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+  <main>
+    <div class="flex flex-row max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto mt-24 place-self-center text-left md:order-[-1] lg:col-span-7 max-w-[32.5em]">
         <h1 class="max-w-2xl mb-9 font-extrabold tracking-tight leading-none md:text-6xl xl:text-[80px]">
           Make remote work
