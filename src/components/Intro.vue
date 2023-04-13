@@ -9,7 +9,9 @@
         </svg>
       </button>
     </div>
-    <nav :class="active ? 'flex flex-col' : 'hidden'" class="w-full font-medium flex-grow gap-6 sm:flex sm:items-center sm:w-auto">
+    <nav :class="active ? 'flex flex-col' : 'hidden'" 
+          class="w-full font-medium flex-grow gap-6 
+          sm:flex sm:items-center sm:w-auto">
       <a class=" mr-12" href="#">
         <svg width="84" height="27" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -39,7 +41,7 @@
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'inline-flex top-1 px-4 py-2 text-sm',
+                'inline-flex top-1 px-4 py-2 text-sm rounded-md',
               ]">
                 <svg class="mr-2" width="14" height="16" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -52,7 +54,7 @@
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'inline-flex px-4 py-2 text-sm',
+                'inline-flex px-4 py-2 text-sm rounded-md',
               ]">
                 <svg class="mr-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -65,7 +67,7 @@
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'inline-flex px-4 py-2 text-sm',
+                'inline-flex px-4 py-2 text-sm rounded-md',
               ]">
                 <svg class="mr-2" width="13" height="17" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -78,7 +80,7 @@
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'inline-flex px-4 py-2 text-sm',
+                'inline-flex px-4 py-2 text-sm rounded-md',
               ]">
                 <svg class="mr-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -114,19 +116,19 @@
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'block px-4 py-2 text-sm',
+                'block px-4 py-2 text-sm rounded-md',
               ]">History</a>
               </MenuItem>
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'block px-4 py-2 text-sm',
+                'block px-4 py-2 text-sm rounded-md',
               ]">Our Team</a>
               </MenuItem>
               <MenuItem v-slot="{ active }">
               <a href="#" :class="[
                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                'block px-4 py-2 text-sm',
+                'block px-4 py-2 text-sm rounded-md',
               ]">Blog</a>
               </MenuItem>
             </div>
@@ -162,22 +164,7 @@
 
   <!-- Main Body Contents -->
   <main class="mt-9">
-    <!--
-    <div class="grid grid-cols-2 gap-32 justify-center place-items-center">
-      <div class="flex flex-col text-left">
-        <h1 class=" text-[82px] font-bold">
-          Make remote work
-        </h1>
-        <p class=" text-gray-500">
-          Get your team in sync. no matter your location.
-          Streamline processes. create team rituals. and
-          watch productivity soar.
-        </p>
-      </div>
-      <img class=" w-[500px]" src="../../images/image-hero-desktop.png" alt="Landing Page Hero Image">
-    </div>
-    -->
-    <div class="grid max-w-screen-xl px-20 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="flex flex-row max-w-screen-xl px-20 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto mt-24 place-self-center text-left md:order-[-1] lg:col-span-7 max-w-[32.5em]">
         <h1 class="max-w-2xl mb-9 font-extrabold tracking-tight leading-none md:text-6xl xl:text-[80px]">
           Make remote work
@@ -188,7 +175,7 @@
           watch productivity soar.
         </p>
         <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-bold text-center text-white bg-black border border-gray-800 rounded-2xl transition-all duration-[300ms] hover:bg-white hover:text-black focus:ring-4 focus:ring-black">
+          class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-center text-white bg-black border border-gray-800 rounded-2xl transition-all duration-[300ms] hover:bg-white hover:text-black focus:ring-4 focus:ring-black">
           Learn more
         </a>
         <div class="flex flex-wrap justify-center items-center mt-[14.5vh] sm:justify-around">
