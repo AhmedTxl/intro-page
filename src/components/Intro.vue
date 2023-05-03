@@ -217,7 +217,7 @@
                                       hover:text-black hover:brightness-0 mr-2">
                 Features
 
-                <svg class="ml-[2px]" id="featsArrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+                <svg class="ml-[2px]" id="mobileFeatsArrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg">
                   <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
                 </svg>
 
@@ -292,7 +292,7 @@
                                 no-underline text-[18px] gap-1 mt-4 sm:mt-0 
                                 text-gray-500 hover:text-black hover:brightness-0 mr-2">
                 Company
-                <svg class="ml-[2px]" id="compArrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+                <svg class="ml-[2px]" id="mobileCompArrow" width="10" height="6" xmlns="http://www.w3.org/2000/svg">
                   <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
                 </svg>
               </MenuButton>
