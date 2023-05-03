@@ -92,12 +92,12 @@ svg {
   transform: rotate(-180deg);
 }
 
-a {
+.credits {
   text-decoration: underline;
   transition: all 360ms;
 }
 
-a:hover {
+.credits:hover {
   transform: scale(0.2);
   color: #8dd10b;
   font-size: 20px;

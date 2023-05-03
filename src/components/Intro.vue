@@ -430,11 +430,11 @@
   <div id="overlayer" :class="active ? 'bg-black absolute opacity-70 top-0 bottom-0 left-0 w-[36%]' : 'opacity-100'" class="opacity-100"></div>
  
   <!-- Footer Contents -->
-  <footer class="text-black mt-2">
+  <footer class="text-black p-[9px]">
     Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <a class="credits" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     |
-    Coded by <a href="https://github.com/AhmedTxl">AhmedTx</a>.
+    Coded by <a class="credits" href="https://github.com/AhmedTxl">AhmedTx</a>.
   </footer>
 </template>
 
