@@ -373,11 +373,12 @@
   <!-- Main Body Contents -->
   <main class="flex justify-center items-center">
 
-    <div class="grid grid-flow-col items-center justify-items-center h-[85vh] mx-[10%] 
-             gap-24 max-w-full max-lg:grid-cols-1 max-lg:items-center max-lg:flex flex-col
+    <div style="height: max-content; width: min(66rem, 100%);" 
+         class="grid grid-flow-col items-center justify-items-center h-[85vh] mx-[10%] 
+             gap-24 py-16 max-w-full max-lg:grid-cols-1 max-lg:items-center max-lg:flex flex-col
              max-lg:px-0 max-lg:max-w-full max-lg:gap-12 max-lg:mx-0 max-lg:text-[12vw]">
 
-      <div class="flex flex-col items-start mr-auto place-self-center 
+      <div class="flex flex-col items-start self-end mr-auto place-self-center 
                text-left order-last lg:order-first max-lg:text-center max-lg:items-center max-lg:mr-0">
 
         <!--  -->
@@ -415,7 +416,7 @@
       </div>
 
       <!-- Main Body Image -->
-      <img class="max-w-[90%] max-h-full min-h-[595px] min-w-[435px] max-lg:hidden transition-all" 
+      <img class="max-w-[482px] max-h-full min-h-[595px] min-w-[435px] max-lg:hidden transition-all" 
            src="../../images/image-hero-desktop.png"
            alt="Landing Main Image">
 
