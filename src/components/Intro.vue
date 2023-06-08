@@ -375,7 +375,7 @@
 
     <div style="height: max-content; width: min(66rem, 100%);" 
          class="grid grid-flow-col items-center justify-items-center h-[85vh] mx-[10%] 
-             gap-24 py-16 max-w-full max-lg:grid-cols-1 max-lg:items-center max-lg:flex flex-col
+             gap-16 py-16 max-w-full max-lg:grid-cols-1 max-lg:items-center max-lg:flex flex-col
              max-lg:px-0 max-lg:max-w-full max-lg:gap-12 max-lg:mx-0 max-lg:text-[12vw]">
 
       <div class="flex flex-col items-start self-end mr-auto place-self-center 
